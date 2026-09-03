@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="KO">
+ <head>
+<style>
+
+/* =====================================
+   Custom Responsive Fix (2026)
+   Portfolio Override
+===================================== */
+	
+/* =========================
+   모바일 전용
+========================= */
+@media (max-width: 819px) {
+
+  /* About 섹션 이미지 */
+  .ftco-about .img-about {
+    position: relative;
+  }
+
+  .ftco-about .img-about .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 1;
+  }
+
+  /* 히어로 오른쪽 배경 이미지는 모바일에서만 숨김 */
+  .hero .slider-item .one-third.img {
+    display: none !important;
+  }
+
+}
+/* =========================
+   앵커 이동 시 네비에 안 가리게
+========================= */
+#home-section,
+#about-section,
+#resume-section,
+#services-section,
+#projects-section {
+  scroll-margin-top: 70px;
+}
+
+/* =========================
+   태블릿(iPad) 전용
+========================= */
+@media (min-width: 820px) and (max-width: 1024px) {
+
+  /* 왼쪽 텍스트 영역 */
+  .hero .slider-item .one-forth{
+    width: 60%;
+    padding-left: 50px;
+  }
+
+  /* 오른쪽 이미지 영역 */
+  .hero .slider-item .one-third.img{
+    width: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  /* 제목 */
+  .hero .slider-item h1{
+    font-size: 50px;
+    line-height: 1.1;
+  }
+
+  /* 본문 */
+  .hero .slider-item h6{
+    font-size: 16px;
+  }
+
+  /* 버튼 */
+  .hero .slider-item .btn{
+    padding: 12px 28px;
+  }
+
+}
+
+</style>
+	 
+ <title>Songyi Design</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	     <a class="navbar-brand" href="index.html" style="text-transform: none !important;">Songyi</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> 
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Award</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Skill&Tools</span></a></li>
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	      <div class="slider-item ">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.webp);">
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading" style="color: #ffffff !important;">Hello!</span>
+						<h1 class="mb-4 mt-3"> 
+    <span style="white-space: nowrap;">Digital Product</span><br>
+    <span style="white-space: nowrap;">Designer</span>
+</h1>
+<h6 class="categories mt-4" style="line-height: 1.6;">
+   
+    <span class="py-0 d-block mb-3" style="font-weight: 600; letter-spacing: 0.5px;">
+        UI/UX & Brand Experience
+    </span>
+    
+    사용자의 행동을 설계하고 브랜드의 감성을 시각화하는<br>
+    <strong>디지털 브랜드 디자이너 김송이입니다.</strong>
+</h6>			<p>&nbsp;</p>
+			            <p><a href="about.html" class="btn btn-primary py-3 px-4">About</a> <a href="portfolio.html" class="btn btn-white btn-outline-white py-3 px-4">Portfolio</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+
+	      <div class="slider-item">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_3.webp);">
+	          		<div class="overlay"></div>
+	          	</div>
+<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+    <div class="text">
+        <span class="subheading" style="letter-spacing: 1px; font-weight: 500;">BRANDED EXPERIENCE</span>
+        
+        <h1 class="py-0" style="letter-spacing: 1px; font-weight: 700;">UI/UX & WEB</h1>
+        <h1 class="py-0" style="letter-spacing: 1px; font-weight: 700;">BRANDING</h1>
+        
+<h6 class="categories" style="margin-top: 25px; line-height: 1.7;">
+    <span>
+       브랜드 가치를 <strong style="color: #ffbd39;">최적의 디지털 경험</strong>으로 구현합니다.<br>
+        브랜드와 웹이 조화를 이루는 프로젝트 아카이브입니다.
+    </span>
+</h6>
+        
+        <p>&nbsp;</p>
+        <p>
+            <a href="about.html" class="btn btn-white btn-outline-white py-3 px-4">About</a> 
+            <a href="portfolio.html" class="btn btn-primary py-3 px-4">Portfolio</a>
+        </p>
+    </div>
+</div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-5 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg_1.png);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+    				<div class="row justify-content-start pb-3">
+
+		       <div class="col-md-12 heading-section ftco-animate">
+    <h1 class="big">About</h1>
+    <h2>About Me</h2>
+    
+    <p class="categories" style="font-weight: 700; font-size: 1.2rem; color: #fff; margin-bottom: 25px;">
+        본질에 집중하고 감각을 더하는 디지털 프로덕트 디자이너 김송이입니다.
+    </p>
+
+    <p class="categories" style="line-height: 1.8; opacity: 0.8;">
+        웹과 모바일의 경계를 넘어 브랜드의 가치를 시각화합니다.<br>
+        다수의 에이전시 프로젝트를 통해 다져진 실무 감각과 공예적 디테일을 더해,
+        사용자에게 깊은<br> 잔상을 남기는 최적의 디지털 경험을 설계합니다.
+    </p>
+
+    <ul class="about-info mt-4 px-md-0 px-2">
+        <li class="d-flex"><span>E-Mail</span><span class="categories">songyi.studio@gmail.com</span></li>
+        <li class="d-flex"><span>Call</span> <span class="categories">010-3994-9336</span></li>
+    </ul>
+</div>
+		       
+
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+                <p><a href="portfolio.html" class="btn btn-primary py-3 px-3">PORTFOLIO</a></p>
+              </div>
+	          </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Award</h1>
+            <h2 class="mb-4">Award</h2>
+            <p class="categories">각종 디자인 공모전에서 3년연속 수상하였습니다.</p>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-4">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2021</span>
+						<h2><span class="date">동상</span> 해군 디자인 공모전 포스터</h2>
+    					<p class="categories">주최: 대한민국 해군</p>
+    					<p class="categories"> 해군함, 항공기, 육상의 3중 네트워크로 스마트한 해군을 표현했습니다.  </p>
+    				</div>
+                 </div>
+				    <div class="col-md-4">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2022</span>
+						<h2><span class="date">맑은바다상</span> 해양오염 콘텐츠 디자인 포스터 </h2>
+    					 <p class="categories">주최: 포스코, 해양경찰청</p>
+    					<p class="categories">블루카본을 주제로 바닷속의 집인 해양정원을 표현했습니다. </p>
+    		</div>
+                 </div>
+					<div class="col-md-4">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2023</span>
+    					<h2><span class="date">장려상</span> 주택 건설현장 안전 포스터  </h2>
+    					 <p class="categories">주최: 한국주택협회</p>
+    					<p class="categories">생명과 위험을 대비시켜 안전고리의 중요성을 표현했습니다. </p>
+    				</div>
+                 </div>
+               </div>
+               </div>
+    </section>
+
+    <section class="ftco-section" id="services-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Skills</h1>
+            <h2 class="mb-4">Skills</h2>
+            <p class="categories"> 웹을 주축으로 한 포트폴리오로 구성되었습니다.</p>
+          </div>
+        </div>
+    		<div class="row">
+					<div class="col-md-3 text-center d-flex ftco-animate">
+						<a href="portfolio.html" class="services-1">
+							<span class="icon">
+								<i class="flaticon-web-design"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Web Design</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center d-flex ftco-animate">
+						<a href="pf_webdesign.html" class="services-1">
+							<span class="icon">
+								<i class="flaticon-ux-design"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">UI/UX Design</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center d-flex ftco-animate">
+						<a href="pf_event.html" class="services-1">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Event/Popup Design</h3>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-3 text-center d-flex ftco-animate">
+						<a href="pf_visualdesign.html" class="services-1">
+							<span class="icon">
+								<i class="flaticon-innovation"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Visual Design</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+    	     </div>
+          </section>
+
+		
+		<section class="ftco-section" id="skills-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Tools</h1>
+            <h2 class="mb-4">Tools</h2>
+            <p class="categories">프로그램 작업을 위한 툴들을 소개합니다.</p>
+          </div>
+        </div>
+				<div class="row">
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Photoshop</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+							    <span>100%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Illustration</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							    <span>90%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Figma</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							    <span>90%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Adobe XD</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+							    <span>85%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Sktech</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="85"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+							    <span>85%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Chat GPT</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							    <span>90%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+ 
+
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Project</h1>
+            <h2 class="mb-4">Project</h2>
+            <p class="categories">다년간의 경험으로 제작된 소중한 작업물을 소개합니다.</p>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-4.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="portfolio-details1.html">Web Site</a></h3>
+	    					<span>LG Anoori</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-8">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="portfolio-details2.html">App UI/UX Design</a></h3>
+	    					<span>PetBang</span>
+	    				</div>
+    				</div>
+  				</div>
+
+    			<div class="col-md-8">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="pf_award.html">Award</a></h3>
+	    					<span>Visual Design</span>
+	    				</div>
+    				</div>
+
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-6.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="portfolio-details6.html">App UI/UX Design</a></h3>
+	    					<span>CoCo App</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="row">
+    					<div class="col-md-12">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
+		    					<div class="overlay"></div>
+			    				<div class="text text-center p-4">
+			    					<h3><a href="portfolio-details15.html">Web Site</a></h3>
+			    					<span>Suwon Science College</span>
+			    				</div>
+		    				</div>
+	    				</div>
+	    				<div class="col-md-12">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
+		    					<div class="overlay"></div>
+			    				<div class="text text-center p-4">
+			    					<h3><a href="portfolio-details13.html">Visual Design</a></h3>
+			    					<span>ICBanQ</span>
+			    				</div>
+									
+		    				</div>	
+	    				</div>
+					</div>
+			</div>    		
+			</div>   		
+				<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="portfolio.html" class="btn btn-primary py-4 px-5">PORTFOLIO</a></p>
+    			</div>
+			</div>
+    	</div>
+    </section>
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About</h2>
+              <p>A happy Designer :)</p>
+             
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#award-section">Award</a></li>
+				<li><a href="#resume-section">Skill&Tool</a></li>
+				 <li><a href="#projects-section">Projects</a></li>
+              </ul>
+								  
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="pf_webdesign.html">Web/Mobile Design</a></li>
+                <li><a href="pf_event.html">Event/popup Design</a></li>
+                <li><a href="pf_visualdesign.html">visual Design</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><a href=" "><span class="icon icon-map-marker"></span><span class="text">Incheon, Korea</span></a></li>
+	                <li><a href="  "><span class="icon icon-phone"></span><span class="text">010-3994-9336</span></a></li>
+	                <li><a href=" "><span class="icon icon-envelope"></span><span class="text">songyi.studio@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script>  All rights for by   <i class="icon-heart color-danger" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank">KIMSONGYI.</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+	  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var navbar = document.getElementById('ftco-navbar');
+    var navLinks = document.querySelectorAll('#ftco-nav a[href^="#"]');
+
+    navLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var targetId = this.getAttribute('href');
+        var target = document.querySelector(targetId);
+        if (!target) return;
+
+        e.preventDefault();
+        e.stopImmediatePropagation();
+
+        // 메뉴가 열려있으면 먼저 닫기
+        var nav = document.getElementById('ftco-nav');
+        if (nav && nav.classList.contains('show')) {
+          nav.classList.remove('show');
+        }
+
+        var offset = 70; // 필요하면 이 값 조정
+        var targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+        setTimeout(function () {
+          window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+        }, 50);
+      }, true); // capture phase에서 먼저 가로채기
+    });
+  });
+</script>
+    
+  </body>
+</html>
